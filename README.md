@@ -1,4 +1,4 @@
-# TennisKata
+# TennisKata :tennis:
 
 > Tennis has a rather quirky scoring system, and to newcomers it can be a little difficult to keep track of. The Tennis Society has contracted you to **build a scoreboard** to display the current score during tennis games. The umpire will have a handset with **two buttons** labelled “player 1 scores” and “player 2 scores”, which he or she will press when the respective players score a point. When this happens, a big scoreboard display should update to show the current score. (When you first switch on the scoreboard, both players are assumed to have no points). When one of the players has won, the scoreboard should display which one.
 > 
@@ -9,7 +9,7 @@
 
 **Vuestra tarea es escribir una clase `TennisGame`** que contenga la lógica para generar la puntuación correcta como `String` para mostrarla en el marcador. Supongamos que cuando árbitro que presiona el botón “jugador 1 anota” esto resultará en una llamada a un método `wonPoint("jugador1")` de la clase, y de manera similar `wonPoint("jugador2")` para el otro botón. El programa recibirá una llamada al método `getScore ()` desde el marcador preguntando qué debería mostrar. Este método debería devolver un `String` con la puntuación actual.
 
-## Tennis Game Rules
+## Tennis Game Rules :memo:
 
 1. A game is won by the first player to have won **at least four points in total and at least two points more than the opponent.** The score is then `“Win for player1”` or `“Win for player2”`.
 2. The running score of each game is described in a manner peculiar to tennis: scores from zero to three points are described as “Love” (`0`), “Fifteen”(`15`), “Thirty”(`30`), and “Forty”(`40`) respectively.
@@ -20,7 +20,7 @@ The Tennis Society has agreed that Sets and Matches are out of scope, so **you o
 
 However, they have requested another feature with lower priority. They want to be able to change the name of the players from “player1” to “Björn Borg” and “player2” to “John McEnroe”. This feature has been categorized “Nice to have”, or, more accurately, “in your dreams”!”
 
-## Tennis Kata: cómo empezar
+## Tennis Kata: cómo empezar :v:
 
 - Creamos una clase para escribir en ella los tests
 
